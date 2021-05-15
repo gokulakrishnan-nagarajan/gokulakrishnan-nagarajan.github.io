@@ -1,0 +1,168 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("./assets/fonts/Roboto/Roboto-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("./assets/fonts/Roboto/Roboto-Black.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("./assets/fonts/Roboto/Roboto-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("./assets/fonts/Roboto/Roboto-Medium.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("./assets/fonts/Roboto/Roboto-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("./assets/fonts/Roboto/Roboto-Light.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+
+html, body, #root {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+body * {
+  font-family: 'Roboto';
+  font-weight: 200;
+  box-sizing: border-box;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+.flex-column-ver-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.flex-center {
+  display: flex;
+  align-items: center;
+}
+.flex-grow-1 {
+  flex-grow: 1;
+}
+.center-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gradient-text {
+  background-image: linear-gradient(to bottom right, #D00, #D0D);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.app-container {
+  width: 100%;
+  height: 100%;
+  background: #111;
+}
+
+.img-container {
+  width: 40%;
+  height: 100%;
+  padding: 40px;
+
+  img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 50%;
+  }
+}
+
+.content {
+  padding: 40px;
+  color: #FFF;
+
+  .name {
+    margin-bottom: 10px;
+    font-size: 50px;
+  }
+
+  .desc {
+    margin-bottom: 50px;
+    font-size: 20px;
+  }
+
+  .my-work-title {
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 500;
+  }
+
+  .my-work-list {
+    margin-bottom: 60px;
+
+    a {
+      margin-right: 20px;
+      padding: 5px 15px;
+      color: #FFF;
+      text-decoration: none;
+      background: #000;
+      border: 1px solid #FFF;
+      border-radius: 5px;
+      transition: all 0.2s ease;
+
+      &:hover {
+        color: #000;
+        background: #FFF;
+        transform: scale(1.05);
+      }
+    }
+  }
+
+  .contact-info-item {
+    margin: 10px 0px;
+
+    .contact-info-icon {
+      width: 20px;
+      margin-right: 10px;
+      font-size: 18px;
+
+      .fa-mobile {
+        font-size: 24px;
+      }
+    }
+
+    .contact-info-title {
+      color: #FFF;
+
+      a {
+        color: inherit;
+      }
+    }
+  }
+}
