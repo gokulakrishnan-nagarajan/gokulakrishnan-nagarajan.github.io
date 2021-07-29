@@ -17,6 +17,7 @@ function App() {
           <a href="https://gokulakrishnan-nagarajan.github.io/calcuplay/" target="_blank">CalcuPlay</a>
           <a href="https://gokulakrishnan-nagarajan.github.io/easycrypt/" target="_blank">EasyCrypt</a>
           <a href="https://gokulakrishnan-nagarajan.github.io/instaresume/" target="_blank">InstaResume</a>
+          <a href="https://gokulakrishnan-nagarajan.github.io/solarsystem/" target="_blank">Solar System</a>
         </div>
         <div className="contact-section">
           <div className="contact-info-item flex-center">
