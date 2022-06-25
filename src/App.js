@@ -12,9 +12,9 @@ function App() {
       <div className="content flex-grow-1 flex-column-ver-center">
         <div className="name gradient-text">GokulaKrishnan T N</div>
         <div className="desc">
-          Software Engineer with 6 years of experience - ReactJS (Redux
-          Toolkit), Angular, Node.js (ExpressJS), Plotly & D3 (Data
-          Visualisation) and MongoDB
+          Software Engineer with 6 years of experience in Web Technology -
+          ReactJS, Next.js, ReduxToolkit, Angular, RxJS, Sass, Plotly & D3 (Data
+          Visualisation), Node.js (ExpressJS) and MongoDB
         </div>
         <div className="my-work-title gradient-text">My Work</div>
         <div className="my-work-list flex-center flex-wrap">
@@ -86,20 +86,6 @@ function App() {
                 rel="noreferrer"
               >
                 linkedin.com/in/gokulakrishnan-nagarajan
-              </a>
-            </span>
-          </div>
-          <div className="contact-info-item flex-center">
-            <span className="contact-info-icon center-center gradient-text">
-              <i className="fa fa-github" aria-hidden="true"></i>
-            </span>
-            <span className="contact-info-title">
-              <a
-                href="https://gokulakrishnan-nagarajan.github.io/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                gokulakrishnan-nagarajan.github.io
               </a>
             </span>
           </div>
