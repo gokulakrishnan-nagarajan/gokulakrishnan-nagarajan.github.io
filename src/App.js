@@ -13,7 +13,8 @@ function App() {
         <div className="name gradient-text">GokulaKrishnan T N</div>
         <div className="desc">
           Software Engineer with 6 years of experience in Web Technology -
-          ReactJS, Next.js, ReduxToolkit, Angular, RxJS, Sass, Plotly & D3 (Data
+          ReactJS, Next.js, Redux Toolkit, React Bootstrap, React Testing
+          Library, Jest, Angular, RxJS, Karma, Jasmine, Sass, Plotly & D3 (Data
           Visualisation), Node.js (ExpressJS) and MongoDB
         </div>
         <div className="my-work-title gradient-text">My Work</div>
